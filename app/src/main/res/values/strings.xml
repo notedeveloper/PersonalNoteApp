@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PersonalNote</string>
+    <string name="title_name">个人特色笔记本</string>
+
+    <string name="item_calendar">日历</string>
+    <string name="item_diary">日记本</string>
+    <string name="item_notepad">记事本</string>
+    <string name="item_memorandum">备忘录</string>
+</resources>
