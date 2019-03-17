@@ -6,4 +6,14 @@
     <string name="item_diary">日记本</string>
     <string name="item_notepad">记事本</string>
     <string name="item_memorandum">备忘录</string>
+
+    <!-- 日历 星期 -->
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="thesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+
 </resources>

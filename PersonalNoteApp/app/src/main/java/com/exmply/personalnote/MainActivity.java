@@ -12,6 +12,7 @@ import android.view.Window;
 import android.widget.TextView;
 
 import com.exmply.personalnote.calendar.CalendarFragment;
+
 import com.exmply.personalnote.diary.DiaryFragment;
 import com.exmply.personalnote.memorandum.MemorandumFragment;
 import com.exmply.personalnote.notepad.NotepadFragment;
