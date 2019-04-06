@@ -16,6 +16,20 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets{
+        main{
+            res.srcDirs =
+                    [
+                            'src/main/res/layouts/main',
+                            'src/main/res/layouts/notepad',
+                            'src/main/res/layouts/memorandum',
+                            'src/main/res/layouts/diary',
+                            'src/main/res/layouts/calendar',
+                        //  'src/main/res/layout',
+                            'src/main/res'
+                    ]
+        }
+    }
 }
 
 dependencies {
