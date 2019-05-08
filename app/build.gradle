@@ -25,13 +25,7 @@ android {
                             'src/main/res/layout/layout-memorandum',
                             'src/main/res/layout/layout-diary',
                             'src/main/res/layout/layout-calendar',
-                            //  'src/main/res/layout',
-                            'src/main/res/layouts/main',
-                            'src/main/res/layouts/notepad',
-                            'src/main/res/layouts/memorandum',
-                            'src/main/res/layouts/diary',
-                            'src/main/res/layouts/calendar',
-                        //  'src/main/res/layout',
+                            
                             'src/main/res'
                     ]
         }
