@@ -22,6 +22,7 @@
   - layout文件夹管理修改：
 
     - layout文件夹中每个子文件夹分别存各个模块的布局文件，**避免各功能模块之间的布局文件混淆**（注意：布局文件需要放在自己所负责的模块文件夹中的layout文件夹，有可能在AS中打不开layout文件内容，需要在本地窗口中打开）
+<<<<<<< HEAD
 
       <a href="https://github.com/notedeveloper/PersonalNoteApp/blob/master/Helpguide/layout%E5%B8%83%E5%B1%80%E5%88%86%E6%A8%A1%E5%9D%97.md">layouts分模块后文件夹中不能显示内容的毛病以及解决方法</a>
 
@@ -31,3 +32,9 @@
 
   - 丰富日历模块功能，增加多种日历风格；
   - 需修补：日历模块星期栏目无法正常显示；
+=======
+    
+      <a href="https://github.com/notedeveloper/PersonalNoteApp/blob/master/Helpguide/layout%E5%B8%83%E5%B1%80%E5%88%86%E6%A8%A1%E5%9D%97.md">layouts分模块后文件夹中不能显示内容的毛病以及解决方法</a>
+
+   - 日历功能模块更新调整
+>>>>>>> 077426cebd4a6d7bf90fd73767631d36b70498c7
