@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
     <RelativeLayout
 
         android:layout_width="match_parent"
         android:layout_height="40dp">
+
 
         <TextView
             android:id="@+id/title"
@@ -20,6 +22,7 @@
             android:text="@string/title_name"
             android:textColor="#8888ee"
             android:textSize="20sp"/>
+
 
     </RelativeLayout>
 

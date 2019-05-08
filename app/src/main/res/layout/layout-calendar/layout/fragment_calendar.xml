@@ -37,37 +37,37 @@
 
                 <TextView
                     style="@style/dateStyle"
-                    android:text="@string/monday"
+                    android:text="@string/mon"
                     android:textColor="@color/font_default_color"/>
 
                 <TextView
                     style="@style/dateStyle"
-                    android:text="@string/thesday"
+                    android:text="@string/tue"
                     android:textColor="@color/font_default_color"/>
 
                 <TextView
                     style="@style/dateStyle"
-                    android:text="@string/wednesday"
+                    android:text="@string/wed"
                     android:textColor="@color/font_default_color"/>
 
                 <TextView
                     style="@style/dateStyle"
-                    android:text="@string/thursday"
+                    android:text="@string/thu"
                     android:textColor="@color/font_default_color"/>
 
                 <TextView
                     style="@style/dateStyle"
-                    android:text="@string/friday"
+                    android:text="@string/fri"
                     android:textColor="@color/font_default_color"/>
 
                 <TextView
                     style="@style/dateStyle"
-                    android:text="@string/saturday"
+                    android:text="@string/sat"
                     android:textColor="@color/font_default_color"/>
 
                 <TextView
                     style="@style/dateStyle"
-                    android:text="@string/sunday"
+                    android:text="@string/sun"
                     android:textColor="@color/font_default_color"/>
             </TableRow>
         </TableLayout>
