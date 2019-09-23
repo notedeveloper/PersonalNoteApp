@@ -27,9 +27,10 @@
       <a href="https://github.com/notedeveloper/PersonalNoteApp/blob/master/Helpguide/layout%E5%B8%83%E5%B1%80%E5%88%86%E6%A8%A1%E5%9D%97.md">layouts分模块后文件夹中不能显示内容的毛病以及解决方法</a>
 
    - 日历功能模块更新调整
-
 - 2019-05-08更新：林湃滨
 
   - 日历功能模块更新调整，丰富日历模块功能，增加多种日历风格；
   - 需修补：日历模块星期栏目无法正常显示；部分日历风格跳转异常
+- 2019-09-23更新：林湃滨
+  - 新增简单的备忘录模块
 

@@ -93,14 +93,12 @@ public class CalendarFragment extends Fragment implements CalendarView.OnCalenda
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        initWindow();
+
         getActivity().findViewById(getLayoutId());
         initView();
         initData();
     }
-    protected void initWindow() {
 
-    }
 
     protected int getLayoutId() {
         return R.layout.activity_main;
