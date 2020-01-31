@@ -1,5 +1,7 @@
 package com.exmply.personalnote.memorandum;
 
+
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -47,6 +49,7 @@ public class MemorandumFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_memorandum,container,false);
     }
 
+    @SuppressLint("ResourceType")
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState){
         super.onActivityCreated(savedInstanceState);

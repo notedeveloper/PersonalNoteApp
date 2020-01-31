@@ -21,16 +21,19 @@
 
 
     <!-- 日历相关活动Activities -->
-    <activity android:name=".calendar.meizu.MeiZuActivity" />
-    <activity android:name=".calendar.index.IndexActivity" />
-    <activity android:name=".calendar.simple.SimpleActivity" />
-    <activity android:name=".calendar.range.RangeActivity" />
-    <activity android:name=".calendar.colorful.ColorfulActivity" />
-    <activity android:name=".calendar.solay.SolarActivity" />
-    <activity android:name=".calendar.single.SingleActivity" />
-    <activity android:name=".calendar.progress.ProgressActivity" />
-    <activity android:name=".calendar.custom.CustomActivity" />
-    <activity android:name=".calendar.pager.ViewPagerActivity" />
-    <activity android:name=".calendar.TestActivity" />
+        <activity android:name=".calendar.meizu.MeiZuActivity" />
+        <activity android:name=".calendar.index.IndexActivity" />
+        <activity android:name=".calendar.simple.SimpleActivity" />
+        <activity android:name=".calendar.range.RangeActivity" />
+        <activity android:name=".calendar.colorful.ColorfulActivity" />
+        <activity android:name=".calendar.solay.SolarActivity" />
+        <activity android:name=".calendar.single.SingleActivity" />
+        <activity android:name=".calendar.progress.ProgressActivity" />
+        <activity android:name=".calendar.custom.CustomActivity" />
+        <activity android:name=".calendar.pager.ViewPagerActivity" />
+        <activity android:name=".calendar.TestActivity" />
+     <!-- 记事本相关Activities -->
+        <activity android:name=".notepad.AddContent"/>
+        <activity android:name=".notepad.ShowContent"/>
     </application>
 </manifest>
