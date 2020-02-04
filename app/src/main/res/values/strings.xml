@@ -8,7 +8,7 @@
     <string name="item_memorandum">备忘录</string>
 
     <!-- 日历 星期 -->
-    <!--
+
     <string name="sunday">日</string>
     <string name="monday">一</string>
     <string name="thesday">二</string>
@@ -16,7 +16,7 @@
     <string name="thursday">四</string>
     <string name="friday">五</string>
     <string name="saturday">六</string>
-    -->
+
     <string-array name="lunar_first_of_month">
         <item>春节</item>
         <item>二月</item>

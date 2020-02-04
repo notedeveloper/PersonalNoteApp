@@ -23,6 +23,7 @@ public class AddContent extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();//隐藏工具栏
         setContentView(R.layout.notepad_add);
         mEditText = (EditText) this.findViewById(R.id.text);
         mNoteDB = new NoteDB(this);
