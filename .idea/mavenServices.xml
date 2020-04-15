@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenServices">
+    <service-url>https://oss.sonatype.org/service/local/</service-url>
+    <service-url>https://repo.jfrog.org/artifactory/api/</service-url>
+    <service-url>https://repository.jboss.org/nexus/service/local/</service-url>
+    <service-url>https://jcenter.bintray.com</service-url>
+    <service-url>https://maven.aliyun.com/repository/jcenter</service-url>
+    <service-url>https://maven.aliyun.com/repository/google</service-url>
+    <service-url>http://maven.aliyun.com/nexus/content/groups/public/</service-url>
+  </component>
+</project>
