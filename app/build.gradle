@@ -16,8 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets{
-        main{
+    sourceSets {
+        main {
             res.srcDirs =
                     [
                             'src/main/res/layout/layout-main',
@@ -25,6 +25,7 @@ android {
                             'src/main/res/layout/layout-memorandum',
                             'src/main/res/layout/layout-diary',
                             'src/main/res/layout/layout-calendar',
+                            'src/main/res/layout/layout-login',
                             'src/main/res'
                     ]
         }
@@ -39,6 +40,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
     implementation 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
