@@ -1,8 +1,8 @@
 package com.exmply.personalnote.login.ui.login;
 
-import android.arch.lifecycle.ViewModel;
-import android.arch.lifecycle.ViewModelProvider;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.annotation.NonNull;
 
 import com.exmply.personalnote.login.data.LoginDataSource;
 import com.exmply.personalnote.login.data.LoginRepository;

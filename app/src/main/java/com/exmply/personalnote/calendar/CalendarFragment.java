@@ -1,14 +1,12 @@
 package com.exmply.personalnote.calendar;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AlertDialog;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AlertDialog;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,14 +14,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.exmply.personalnote.MainActivity;
 import com.exmply.personalnote.R;
-import com.exmply.personalnote.calendar.base.activity.BaseActivity;
 import com.exmply.personalnote.calendar.calendarview.Calendar;
 import com.exmply.personalnote.calendar.calendarview.CalendarLayout;
 import com.exmply.personalnote.calendar.calendarview.CalendarView;
@@ -34,11 +29,6 @@ import com.exmply.personalnote.calendar.custom.CustomWeekBar;
 import com.exmply.personalnote.calendar.custom.CustomWeekView;
 import com.exmply.personalnote.calendar.index.IndexActivity;
 import com.exmply.personalnote.calendar.meizu.MeiZuActivity;
-import com.exmply.personalnote.calendar.model.CalendarCard;
-import com.exmply.personalnote.calendar.model.CalendarViewAdapter;
-import com.exmply.personalnote.calendar.model.Custom;
-import com.exmply.personalnote.calendar.model.CustomDate;
-import com.exmply.personalnote.calendar.model.DateUtil;
 import com.exmply.personalnote.calendar.pager.ViewPagerActivity;
 import com.exmply.personalnote.calendar.progress.ProgressActivity;
 import com.exmply.personalnote.calendar.range.RangeActivity;
@@ -52,7 +42,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static android.support.v4.os.LocaleListCompat.create;
+import static androidx.core.os.LocaleListCompat.create;
 
 
 public class CalendarFragment extends Fragment implements CalendarView.OnCalendarSelectListener,

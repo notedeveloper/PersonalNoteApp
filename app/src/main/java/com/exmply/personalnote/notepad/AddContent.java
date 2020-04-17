@@ -1,6 +1,6 @@
 package com.exmply.personalnote.notepad;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -13,7 +13,6 @@ import com.exmply.personalnote.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.logging.Logger;
 
 public class AddContent extends AppCompatActivity {
     private EditText mEditText;

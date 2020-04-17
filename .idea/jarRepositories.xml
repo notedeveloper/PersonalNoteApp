@@ -26,5 +26,10 @@
       <option name="name" value="0eb5fd3b-bff6-402a-a109-9e1f25cc30ea" />
       <option name="url" value="https://maven.aliyun.com/repository/releases" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="e52dd9bf-000d-4bc0-ad1d-43cc8c0cb542" />
+      <option name="name" value="e52dd9bf-000d-4bc0-ad1d-43cc8c0cb542" />
+      <option name="url" value="https://maven.google.com" />
+    </remote-repository>
   </component>
 </project>

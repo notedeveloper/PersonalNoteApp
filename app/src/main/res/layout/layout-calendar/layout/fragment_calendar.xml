@@ -82,7 +82,7 @@
         android:layout_marginRight="10dp"
         android:orientation="vertical">
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/vp_calendar"
             android:layout_width="match_parent"
             android:layout_height="206dp"

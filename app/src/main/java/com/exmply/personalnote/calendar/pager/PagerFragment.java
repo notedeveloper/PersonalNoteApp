@@ -1,6 +1,6 @@
 package com.exmply.personalnote.calendar.pager;
 
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.exmply.personalnote.calendar.Article;
 import com.exmply.personalnote.calendar.ArticleAdapter;
