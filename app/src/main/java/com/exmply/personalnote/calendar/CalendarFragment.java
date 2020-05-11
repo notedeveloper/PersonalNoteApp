@@ -439,7 +439,9 @@ public class CalendarFragment extends Fragment implements CalendarView.OnCalenda
                 SimpleActivity.show(this.getActivity());
                 break;
             case R.id.ll_colorful:
+/*
                 ColorfulActivity.show(this.getActivity());
+*/
                 break;
             case R.id.ll_index:
                 IndexActivity.show(this.getActivity());
