@@ -32,6 +32,12 @@ public class LauncherActivity extends AppCompatActivity {
     }
 
     public void initEvent() {
+        setLock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goTo(LockSettingActivity.class);
+            }
+        });
         startMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

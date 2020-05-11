@@ -2,4 +2,5 @@
     <string name="setLockBtn">设置解锁手势</string>
     <string name="startMainBtn">进入日记本</string>
     <string name="tv_setting_hint">绘制解锁图案</string>
+    <string name="setLockHint">绘制解锁图案</string>
 </resources>
