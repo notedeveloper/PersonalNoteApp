@@ -50,7 +50,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:gravity="center"
             android:textColor="@android:color/darker_gray"
             android:text="@string/item_calendar"/>
@@ -63,7 +63,7 @@
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/item_diary"
             android:textColor="@android:color/darker_gray"
-            android:textSize="15dp"/>
+            android:textSize="15sp"/>
 
         <TextView
             android:id="@+id/item_notepad"
@@ -73,7 +73,7 @@
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/item_notepad"
             android:textColor="@android:color/darker_gray"
-            android:textSize="15dp"/>
+            android:textSize="15sp"/>
 
         <TextView
             android:id="@+id/item_memorandum"
@@ -83,7 +83,7 @@
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/item_memorandum"
             android:textColor="@android:color/darker_gray"
-            android:textSize="15dp"/>
+            android:textSize="15sp"/>
     </LinearLayout>
 
 
