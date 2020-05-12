@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".LockingActivity"></activity>
         <activity android:name=".LockSettingActivity"></activity>
         <activity android:name=".LauncherActivity">
             <intent-filter>
@@ -26,7 +27,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
             </intent-filter>
         </activity> <!-- 日历相关活动Activities -->
         <activity android:name=".calendar.meizu.MeiZuActivity" />

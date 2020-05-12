@@ -3,4 +3,5 @@
     <string name="startMainBtn">进入日记本</string>
     <string name="tv_setting_hint">绘制解锁图案</string>
     <string name="setLockHint">绘制解锁图案</string>
+    <string name="LockFragmentHint">请绘制手势解锁</string>
 </resources>
