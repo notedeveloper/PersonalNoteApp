@@ -29,6 +29,8 @@ public class LockSettingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lock_setting);
+        initViews();
+        initEvents();
     }
 
     @Override
@@ -39,10 +41,22 @@ public class LockSettingActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * 重置
+     */
+    private void resetGesture() {
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mGestureLockLayout.resetGesture();
+            }
+        }, 200);
+    }
+
     private void initViews() {
         mGestureLockLayout = findViewById(R.id.l_gesture_view);
-        mLockDisplayView =  findViewById(R.id.l_display_view);
-        mSettingHintText =  findViewById(R.id.tv_setting_hint);
+        mLockDisplayView = findViewById(R.id.l_display_view);
+        mSettingHintText = findViewById(R.id.tv_setting_hint);
         //设置提示view 每行每列点的个数
         mLockDisplayView.setDotCount(3);
         //设置提示view 选中状态的颜色
@@ -106,18 +120,6 @@ public class LockSettingActivity extends AppCompatActivity {
                 }
             }
         });
-    }
-
-    /**
-     * 重置
-     */
-    private void resetGesture() {
-        mHandler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                mGestureLockLayout.resetGesture();
-            }
-        }, 200);
     }
 
 
