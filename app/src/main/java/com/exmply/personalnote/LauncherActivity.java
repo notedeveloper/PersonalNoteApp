@@ -52,7 +52,12 @@ public class LauncherActivity extends AppCompatActivity {
         startMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goTo(MainActivity.class);
+/*                goTo(MainActivity.class);*/
+
+                // 在进入 MainActivity 时销毁 LauncherActivity
+                Intent intent = new Intent(LauncherActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
             }
         });
     }
